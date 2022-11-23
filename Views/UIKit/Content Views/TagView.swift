@@ -57,7 +57,6 @@ private extension TagView {
 
         stackView.addArrangedSubview(verticalStackView)
         verticalStackView.axis = .vertical
-        verticalStackView.spacing = .compactSpacing
 
         verticalStackView.addArrangedSubview(nameLabel)
         nameLabel.adjustsFontForContentSizeCategory = true
